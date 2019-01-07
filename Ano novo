@@ -1,0 +1,7 @@
+import emoji
+from time import sleep
+print('\033[7m====Desafio Butiquin====\033[m')
+for c in range(10,-1,-1):
+    print('\033[4;33;46m{}\033[m'.format(c))
+    sleep(1)
+print(emoji.emojize('\033[7;30m:fireworks: acabo ;-;   :fireworks:\033[m'))
